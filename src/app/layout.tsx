@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Wiratman CMS",
-  description: "Content Management System",
+  title: "Sims PPOB",
+  description: "Rizky Alam Firmansyah",
 };
 
 export default function RootLayout({
