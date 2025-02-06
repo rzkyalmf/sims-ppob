@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SIMS PPOB",
+  title: "SIMS PPOB - Rizky Alam Firmansyah",
   description: "Rizky Alam Firmansyah",
 };
 
