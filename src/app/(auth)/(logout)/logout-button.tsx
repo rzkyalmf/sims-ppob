@@ -4,7 +4,7 @@ import { useActionState } from "react";
 
 import { Button } from "@/components/ui/button";
 
-import { logoutAction } from "./action";
+import { logoutAction } from "./action.logout";
 
 export const LogoutButton = () => {
   const [_, formAction, pending] = useActionState(logoutAction, null);
