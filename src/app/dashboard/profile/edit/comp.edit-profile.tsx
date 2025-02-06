@@ -8,7 +8,7 @@ import { ChangeEvent, useActionState, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-import { updateProfile } from "./action.update-profile";
+import { updateProfile } from "./action.put-profile";
 
 interface Props {
   name: string;
