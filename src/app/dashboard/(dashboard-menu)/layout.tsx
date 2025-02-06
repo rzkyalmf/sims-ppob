@@ -7,7 +7,7 @@ export default async function MenuLayout({ children }: { children: React.ReactNo
   const profile = await getProfile();
   const balance = await getBalance();
 
-  if (!profile || !balance) {
+  if (!profile) {
     return null;
   }
 
@@ -16,7 +16,7 @@ export default async function MenuLayout({ children }: { children: React.ReactNo
   return (
     <>
       <main>
-        <CompDashboard name={name} balance={balance || 0} profile_image={profile.data.profile_image} />
+        <CompDashboard name={name} balance={balance ?? 0} profile_image={profile.data.profile_image} />
         <div>{children}</div>
       </main>
     </>
